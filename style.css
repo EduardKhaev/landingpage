@@ -119,7 +119,38 @@ header{
     text-align: center;
     width: 100%;
 }
-.spanSubText{
-    font-stretch:extra-expanded;
+
+
+
+
+
+
+
+
+/* quote body section */
+.quoteSection{
+    height: 500px;
+    background-color: #e5e7eb;
+    padding: 0 280px 0 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.quoteText{
+    font-size: 36px;
+    color: #1f2937;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    
+}
+.quoteAuthor{
+    display: flex;
+    justify-content: flex-end;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding-right: 150px;
 }
 
